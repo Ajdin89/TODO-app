@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #E3E9FF;
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 4rem;
+  width: 100%;
+  background: #AF7EEB;
+  z-index: 100;
+}
+
+.navbar .header-title {
+  color: #fefefe;
+  font-size: 1.7rem;
+  font-family: 'Kanit', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.todos-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 520px;
+  width: 750px;
+  background: #f3f3f3;
+  overflow: hidden;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+  margin-top: 70px;
+}
+
+.item {
+  flex-direction: column;
+  width: 100%;
+  margin: 0.15rem 0;
+  padding-left: 2.6rem;
+  text-align: start;
+  position: relative;
+}
+
+.item:first-child {
+  margin-top: 0.6rem;
+}
+
+.item input {
+  accent-color: #AF7EEB;
+}
+
+.item label {
+  margin: 0.1rem 3rem 0.1rem 1rem;
+  cursor: pointer;
+  background: #e6e7ed;
+  /* text-transform: uppercase; */
+}
+
+#edit_todos {
+  position: absolute;
+  top: 0;
+  right: 12%;
+  color: #fff;
+  background: #2d9ce5;
+  padding: 0.15rem 0.3rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#delete_todos {
+  position: absolute;
+  top: 0;
+  right: 4%;
+  color: #fff;
+  background: tomato;
+  padding: 0.15rem 0.3rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+form input {
+  width: 450px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.3px;
+  border: none;
+  border-bottom: 1px solid #444;
+  margin-right: 0.6rem;
+  padding-left: 0.45rem;
+  outline: none;
+}
+
+button {
+  font-size: 2rem;
+  /* background: transparent; */
+  padding: 0 0.7rem;
+  color: #f3f3f3;
+  background: #AF7EEB;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
